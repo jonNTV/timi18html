@@ -5,6 +5,7 @@ let selectedOperator = null;
 
 function clearAll() {
     display.value = 0;
+    asfmsklfmasklfmasmklasdfmaslfsaf
 };
 
 function updateDisplay(num){
