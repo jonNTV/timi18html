@@ -31,6 +31,7 @@ button {
     background-color: white;
     transition: 75ms ease-in;
     cursor: pointer;
+    font-size: 2rem
 }
 
 button:hover {
@@ -44,7 +45,7 @@ button:hover {
     height: 100px;
     width: 100%;
     border: 4px solid hsl(0, 0%, 85%);
-    background-color: hsl(0, 0%, 85%);
+    background-color: hsl(0, 0%, 90%);
     border-radius: 12.5px;
     box-shadow: 0px 0px 30px hsl(0, 0%, 90%);
     color: black;
@@ -52,4 +53,23 @@ button:hover {
     padding-right: 20px;
     font-size: 2rem;
     font-weight: bold;
+}
+
+.operator {
+    background-color: hsl(0, 0%, 85%);
+}
+
+.clear, .del {
+    background-color: hsl(0, 0%, 70%);
+}
+
+.clear:hover, .operator:hover ,.del:hover {
+    background-color: hsl(0, 0%, 60%);
+}
+
+.clear:active, .del:active,.operator:active  {
+    background-color: hsl(0, 0%, 30%);
+}
+button:active {
+    background-color: hsl(0, 0%, 50%);
 }
